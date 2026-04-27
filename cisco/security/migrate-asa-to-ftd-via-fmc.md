@@ -37,3 +37,8 @@ Next, since I'm targeting an FTD device that's registered to a virtual FMC appli
 
 
 # Reconfigure VPN Tunnel
+
+The old ASA was using IKEv1 to stand up a tunnel between this ASA and a peer. In addition, the peer was updating their firewall as well, necessitating a rebuild of the VPN tunnel. A policy based peer-to-peer VPN topology was selected in the FMC GUI for simplicity. 
+
+
+
