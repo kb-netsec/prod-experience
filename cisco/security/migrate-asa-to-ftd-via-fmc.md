@@ -40,5 +40,19 @@ Next, since I'm targeting an FTD device that's registered to a virtual FMC appli
 
 The old ASA was using IKEv1 to stand up a tunnel between this ASA and a peer. In addition, the peer was updating their firewall as well, necessitating a rebuild of the VPN tunnel. A policy based peer-to-peer VPN topology was selected in the FMC GUI for simplicity. 
 
+Using the ASA running config to select Endpoint options in the Edit VPN Topology Menu:
+
+Device: <redacted-host>
+Interface: outside
+IP Address: 
+This IP is Private: 
+Connection Type: 
+Certificate Map: 
+Protected Networks: 
+Enable NAT Traversal:
+Exempt VPN traffic from NAT:
+Inside interfaces directly connected to the internal network: 
+
+
 
 
