@@ -20,6 +20,7 @@ You can use the CLI on the FTD device as well or the FMC GUI; navigate to Device
 5. Selected default features to migrate
 6. Started rule conversion
 7. Mapped ASA interfaces > FTD interfaces
+8. Map ASA Security Zones and Interface Groups > FTD Security Zones and Interface Groups
 
 Now would be a good time to pause and discuss the creation of Security Zones and Interface Groups on the FMC: 
 
