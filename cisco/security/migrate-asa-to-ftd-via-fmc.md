@@ -42,6 +42,8 @@ The old ASA was using IKEv1 to stand up a tunnel between this ASA and a peer. In
 
 Using the ASA running config to select Endpoint options in the Edit VPN Topology Menu:
 
+Endpoint A:
+
 Device: <redacted-host>
 Interface: outside
 IP Address: 
@@ -53,6 +55,12 @@ Enable NAT Traversal:
 Exempt VPN traffic from NAT:
 Inside interfaces directly connected to the internal network: 
 
+NOTE: I'm currently unable to configure endpoint A in the tunnel due to needing to use the same IPs as the production ASA prior to migration. May test this using an alternate IP/Interface
+
+Endpoint B:
+
+Device: Extranet 
+Devoce Name: 
 
 
 
