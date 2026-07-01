@@ -1,6 +1,6 @@
-This will detail the exercise of migrating a legacy ASA5510 firwall to newer Cisco FTD hardware.
+This will detail the exercise of migrating a legacy ASA5510 firewall to newer Cisco FTD hardware.
 
-The built in FMT on FMC virtual appliance only supported migrating from other FTD devices, so needed to use desktop FMT. 
+The built-in FMT on FMC virtual appliance only supported migrating from other FTD devices, so needed to use desktop FMT. 
 
 Steps taken during migration:
 
