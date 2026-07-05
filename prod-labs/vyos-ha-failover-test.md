@@ -3,11 +3,13 @@ While building a new VLAN on the campus firewall HA pair, I had a copy/paste err
 I began configuration on the standby unit with the following:
 
 ```
-set high-availability vrrp group VLAN838-4 address 172.20.38.1/24
-set high-availability vrrp group VLAN838-4 advertise-interval '1'
-set high-availability vrrp group VLAN838-4 interface 'eth3.838'
-set high-availability vrrp group VLAN838-4 preempt-delay '300'
-set high-availability vrrp group VLAN838-4 priority '100'
-set high-availability vrrp group VLAN838-4 vrid '100'
-set high-availability vrrp sync-group CLUSTER-1 member 'VLAN838-4'
+set high-availability vrrp group VLAN123 address 192.168.1.1/24
+set high-availability vrrp group VLAN123 advertise-interval '1'
+set high-availability vrrp group VLAN123 interface 'eth3.124'
+set high-availability vrrp group VLAN123 preempt-delay '300'
+set high-availability vrrp group VLAN123 priority '100'
+set high-availability vrrp group VLAN123 vrid '100'
+set high-availability vrrp sync-group CLUSTER-1 member 'VLAN123'
 ```
+
+I'm not configuring VLAN 123 here. The group contained a copy paste error and I was actually configuring VLAN 124. VLAN 124 exists on this firewall, so I was about to overwrite VLAN 123 HA address and interface configurations.
