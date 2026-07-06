@@ -14,6 +14,7 @@ show configuration commands | grep 'set firewall ipv4 forward filter rule XXX'
 show configuration commands | grep 'set firewall ipv4 input filter rule XXX'
 show configuration commands | grep "set service dhcp-relay interface 'eth3.XXX'"
 show configuration commands | grep 'set high-availability vrrp group VLANXXX-4'
+show configuration commands | grep "set high-availability vrrp sync-group CLUSTER-1 member 'VLANXXX-4'"
 
 6. dump to file
 7. request mop commnad list file
