@@ -8,7 +8,12 @@
 show configuration commmands | grep 'set firewall group network-group NET-4-VLANXXX'
 show configuration commands | grep VLANXXX-4-IN
 show configuration commands | grep VLANXXX-4-OUT
-
+show configuration commands | grep 'set interfaces ethernet eth3 vif XXX'
+show configuration commands | grep 'set firewall ipv4 forward filter rule XXX'
+show configuration commands | grep 'set firewall ipv4 forward filter rule XXX'
+show configuration commands | grep 'set firewall ipv4 input filter rule XXX'
+show configuration commands | grep "set service dhcp-relay interface 'eth3.XXX'"
+show configuration commands | grep 'set high-availability vrrp group VLANXXX-4'
 
 6. dump to file
 7. request mop commnad list file
